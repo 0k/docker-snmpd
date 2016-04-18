@@ -10,7 +10,7 @@ RUN echo "deb http://http.us.debian.org/debian jessie main non-free" >> /etc/apt
 #ADD entrypoint.sh /entrypoint.sh
 #RUN chmod a+x /entrypoint.sh
 
-VOLUME /etc/snmp
+#VOLUME /etc/snmp
 
 EXPOSE 161
 
